@@ -14,6 +14,7 @@ public class ValidateISBNTest {
 		assertTrue(result);
 		
 	}
+	
 	@Test
 	public void checkAVanlidISBN() 
 	{
