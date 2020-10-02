@@ -7,11 +7,19 @@ import org.junit.Test;
 public class ValidateISBNTest {
 
 	@Test
-	public void checkAValidISBN() {
+	public void checkAValidISBN() 
+	{
 		ValidateISBN validator = new ValidateISBN();
 		boolean result = validator.checkISBN(140449116);
 		assertTrue(result);
 		
 	}
-
+	@Test
+	public void checkAVanlidISBN() 
+	{
+		ValidateISBN validator = new ValidateISBN();
+		boolean result = validator.checkISBN(140449117);
+		assertFalse(result);
+		
+     }
 }
