@@ -7,8 +7,8 @@ import org.junit.Test;
 public class ValidateISBNTest {
 
 	@Test
-	public void test() {
-		
+	public void checkAValidISBN() {
+		fail();
 	}
 
 }
